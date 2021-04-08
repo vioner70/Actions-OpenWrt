@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: OpenWrt
 
 on:
   repository_dispatch:
@@ -30,8 +30,8 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
-  UPLOAD_RELEASE: false
-  TZ: Asia/Shanghai
+  UPLOAD_RELEASE: turn
+  TZ: Asia/Shaanxi
 
 jobs:
   build:
